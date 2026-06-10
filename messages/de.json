@@ -1,7 +1,7 @@
 {
   "Metadata": {
     "title": "Ich bin ein Berwiener",
-    "description": "Ein Dackel-Spaziergang durch Berlin — zum 10-jährigen Jubiläum von Doggy Bag Tours."
+    "description": "Der Dackel-Spaziergang durch Berlin — zum 10-jährigen Jubiläum von Doggy Bag Tours."
   },
   "Navigation": {
     "home": "Home",
@@ -20,7 +20,8 @@
   },
   "HomePage": {
     "eventTagline": "Der längste kleine Hundespaziergang",
-    "subheadline": "Ein Dackel-Spaziergang in Berlin",
+    "firstEditionTicker": "ERSTE AUSGABE",
+    "subheadline": "Der Dackel-Spaziergang in Berlin",
     "eventDetails": "Sonntag, 21. Juni 2026 · 12:30 · Pariser Platz",
     "countdownDays": "Tage",
     "countdownHours": "Stunden",
@@ -98,7 +99,7 @@
     "anniversaryLabel": "10",
     "anniversarySublabel": "Jahre Doggy Bag Tours",
     "paragraph1": "Doggy Bag Tours bietet Fahrradtouren durch Berlin — geführte Touren, die Geschichte, Kultur und versteckte Ecken der Stadt erlebbar machen.",
-    "paragraph2": "Ich bin ein Berwiener gibt es wegen Doggy Bag Tours. Dieser Dackel-Spaziergang feiert alles, wofür die Firma steht: Berlin, Geschichten, Community — und Hunde.",
+    "paragraph2": "Ich bin ein Berwiener gibt es wegen Doggy Bag Tours. Der Dackel-Spaziergang feiert alles, wofür die Firma steht: Berlin, Geschichten, Community — und Hunde.",
     "paragraph3": "Der Walk markiert das 10-jährige Jubiläum von Doggy Bag Tours — zehn Jahre Berlin für Besucherinnen, Besucher und Berlinerinnen und Berliner zeigen, oft mit einem Dackel dabei.",
     "websiteLink": "doggybagtours.com besuchen"
   },
@@ -132,7 +133,7 @@
   },
   "Footer": {
     "eventName": "Ich bin ein Berwiener",
-    "tagline": "Ein Dackel-Spaziergang in Berlin — zum 10-jährigen Jubiläum von Doggy Bag Tours.",
+    "tagline": "Der Dackel-Spaziergang in Berlin — zum 10-jährigen Jubiläum von Doggy Bag Tours.",
     "date": "Sonntag, 21. Juni 2026 · Pariser Platz",
     "about": "Über",
     "when": "Wann & Wo",

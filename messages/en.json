@@ -1,7 +1,7 @@
 {
   "Metadata": {
     "title": "Ich bin ein Berwiener",
-    "description": "A dachshund walk through Berlin — celebrating 10 years of Doggy Bag Tours."
+    "description": "The dachshund walk through Berlin — celebrating 10 years of Doggy Bag Tours."
   },
   "Navigation": {
     "home": "Home",
@@ -20,7 +20,8 @@
   },
   "HomePage": {
     "eventTagline": "The Longest Little Dog Walk",
-    "subheadline": "A dachshund walk in Berlin",
+    "firstEditionTicker": "FIRST EDITION",
+    "subheadline": "The dachshund walk in Berlin",
     "eventDetails": "Sunday, 21 June 2026 · 12:30 · Pariser Platz",
     "countdownDays": "Days",
     "countdownHours": "Hours",
@@ -98,7 +99,7 @@
     "anniversaryLabel": "10",
     "anniversarySublabel": "Years Doggy Bag Tours",
     "paragraph1": "Doggy Bag Tours offers bike tours through Berlin — guided rides that bring the city's history, culture and hidden corners to life.",
-    "paragraph2": "Ich bin ein Berwiener exists because of Doggy Bag Tours. This dachshund walk celebrates everything the company stands for: Berlin, stories, community — and dogs.",
+    "paragraph2": "Ich bin ein Berwiener exists because of Doggy Bag Tours. The dachshund walk celebrates everything the company stands for: Berlin, stories, community — and dogs.",
     "paragraph3": "The walk marks the 10th anniversary of Doggy Bag Tours — ten years of showing Berlin to visitors and locals alike, often with a dachshund along for the ride.",
     "websiteLink": "Visit doggybagtours.com"
   },
@@ -132,7 +133,7 @@
   },
   "Footer": {
     "eventName": "Ich bin ein Berwiener",
-    "tagline": "A dachshund walk in Berlin — celebrating 10 years of Doggy Bag Tours.",
+    "tagline": "The dachshund walk in Berlin — celebrating 10 years of Doggy Bag Tours.",
     "date": "Sunday, 21 June 2026 · Pariser Platz",
     "about": "About",
     "when": "When & Where",

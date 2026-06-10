@@ -16,6 +16,7 @@ export default function HomePage({ params }: Props) {
   return (
     <div className="page-bg page-bg--white">
       <HomeHero
+        firstEditionTicker={t("firstEditionTicker")}
         eventTagline={t("eventTagline")}
         subheadline={t("subheadline")}
         eventDetails={t("eventDetails")}

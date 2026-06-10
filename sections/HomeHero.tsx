@@ -2,9 +2,11 @@
 
 import { useEffect, useRef, useState } from "react";
 import EventCountdown from "@/components/EventCountdown";
+import FirstEditionTicker from "@/components/FirstEditionTicker";
 import FreeEventNotice from "@/sections/FreeEventNotice";
 
 type Props = {
+  firstEditionTicker: string;
   eventTagline: string;
   subheadline: string;
   eventDetails: string;
@@ -19,6 +21,7 @@ type Props = {
 };
 
 export default function HomeHero({
+  firstEditionTicker,
   eventTagline,
   subheadline,
   eventDetails,
@@ -51,6 +54,8 @@ export default function HomeHero({
 
   return (
     <>
+      <FirstEditionTicker label={firstEditionTicker} />
+
       <video
         ref={videoRef}
         autoPlay
