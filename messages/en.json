@@ -6,7 +6,7 @@
   "Navigation": {
     "home": "Home",
     "about": "About",
-    "when": "When",
+    "when": "When & Where",
     "who": "Who?",
     "doggyBagTours": "Doggy Bag Tours",
     "community": "Community",
@@ -37,7 +37,7 @@
     "paragraph4": "If there is a little dachshund somewhere deep inside your heart, then this is exactly where you belong."
   },
   "WhenPage": {
-    "title": "When",
+    "title": "When & Where",
     "dateTitle": "Date & time",
     "date": "Sunday, 21 June 2026",
     "time": "12:30 · Berlin time",
@@ -135,7 +135,7 @@
     "tagline": "A dachshund walk in Berlin — celebrating 10 years of Doggy Bag Tours.",
     "date": "Sunday, 21 June 2026 · Pariser Platz",
     "about": "About",
-    "when": "When",
+    "when": "When & Where",
     "who": "Who?",
     "doggyBagTours": "Doggy Bag Tours",
     "community": "Community",

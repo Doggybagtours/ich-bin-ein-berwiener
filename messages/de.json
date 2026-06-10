@@ -6,7 +6,7 @@
   "Navigation": {
     "home": "Home",
     "about": "Über",
-    "when": "Wann",
+    "when": "Wann & Wo",
     "who": "Wer?",
     "doggyBagTours": "Doggy Bag Tours",
     "community": "Community",
@@ -37,7 +37,7 @@
     "paragraph4": "Wenn irgendwo tief in deinem Herzen ein kleiner Dackel steckt, dann bist du hier genau richtig."
   },
   "WhenPage": {
-    "title": "Wann",
+    "title": "Wann & Wo",
     "dateTitle": "Datum & Uhrzeit",
     "date": "Sonntag, 21. Juni 2026",
     "time": "12:30 Uhr · Berliner Zeit",
@@ -135,7 +135,7 @@
     "tagline": "Ein Dackel-Spaziergang in Berlin — zum 10-jährigen Jubiläum von Doggy Bag Tours.",
     "date": "Sonntag, 21. Juni 2026 · Pariser Platz",
     "about": "Über",
-    "when": "Wann",
+    "when": "Wann & Wo",
     "who": "Wer?",
     "doggyBagTours": "Doggy Bag Tours",
     "community": "Community",
