@@ -54,8 +54,6 @@ export default function HomeHero({
 
   return (
     <>
-      <FirstEditionTicker label={firstEditionTicker} />
-
       <video
         ref={videoRef}
         autoPlay
@@ -82,6 +80,8 @@ export default function HomeHero({
         <p className="home-hero__details">{eventDetails}</p>
 
         <div className="home-hero__divider" aria-hidden="true" />
+
+        <FirstEditionTicker label={firstEditionTicker} />
 
         <EventCountdown labels={countdown} />
 
