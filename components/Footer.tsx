@@ -57,13 +57,13 @@ export default async function Footer() {
         <div className="border-t border-white/10 pt-8">
           <p className="font-sans text-sm text-white/50">{t("copyright")}</p>
         </div>
+        <img
+          src="/images/footer/dackel-red.png"
+          alt=""
+          aria-hidden="true"
+          className="absolute bottom-0 right-0 h-32 w-auto opacity-80 sm:h-48"
+        />
       </div>
-      <img
-        src="/images/footer/dackel-red.png"
-        alt=""
-        aria-hidden="true"
-        className="absolute bottom-0 right-0 h-32 w-auto opacity-80 sm:h-48"
-      />
     </footer>
   );
 }
