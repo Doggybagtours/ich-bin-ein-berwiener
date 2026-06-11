@@ -6,7 +6,7 @@ export default async function Footer() {
 
   return (
     <footer className="site-footer mt-auto">
-      <div className="mx-auto max-w-7xl px-5 py-14 sm:px-8">
+      <div className="relative mx-auto max-w-7xl px-5 py-14 sm:px-8">
         <div className="mb-10 h-1 w-12 bg-accent" aria-hidden="true" />
         <p className="mb-3 font-sans text-lg font-bold text-white sm:text-xl">
           {t("eventName")}
@@ -58,6 +58,12 @@ export default async function Footer() {
           <p className="font-sans text-sm text-white/50">{t("copyright")}</p>
         </div>
       </div>
+      <img
+        src="/images/footer/dackel-red.png"
+        alt=""
+        aria-hidden="true"
+        className="absolute bottom-0 right-0 h-32 w-auto opacity-80 sm:h-48"
+      />
     </footer>
   );
 }
