@@ -947,19 +947,6 @@ body {
   box-shadow: 2px 3px 0 rgba(17, 17, 17, 0.1);
 }
 
-.flyer-sticker::before {
-  content: "";
-  position: absolute;
-  top: -5px;
-  left: 1.25rem;
-  width: 2.5rem;
-  height: 0.65rem;
-  background-color: var(--badge-yellow);
-  opacity: 0.9;
-  transform: rotate(-3deg);
-  box-shadow: 0 1px 1px rgba(17, 17, 17, 0.08);
-}
-
 .flyer-paw-accent {
   display: inline-block;
   margin-right: 0.35rem;
