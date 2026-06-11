@@ -7,34 +7,47 @@ export default async function Footer() {
   return (
     <footer className="site-footer mt-auto">
       <div className="relative mx-auto max-w-7xl px-5 py-14 sm:px-8">
-        <div className="mb-10 h-1 w-12 bg-accent" aria-hidden="true" />
-        <p className="mb-3 font-sans text-lg font-bold text-white sm:text-xl">
-          {t("eventName")}
-        </p>
-        <p className="mb-8 max-w-md font-sans text-sm leading-relaxed text-white/70 sm:text-base">
-          {t("tagline")}
-        </p>
-        <p className="site-footer__accent mb-8 font-sans text-sm font-semibold uppercase tracking-[0.16em]">
-          {t("date")}
-        </p>
+        <div className="grid grid-cols-1 sm:grid-cols-[1fr_auto] gap-8 items-end">
+          <div>
+            <div className="mb-10 h-1 w-12 bg-accent" aria-hidden="true" />
+            <p className="mb-3 font-sans text-lg font-bold text-white sm:text-xl">
+              {t("eventName")}
+            </p>
+            <p className="mb-8 max-w-md font-sans text-sm leading-relaxed text-white/70 sm:text-base">
+              {t("tagline")}
+            </p>
+            <p className="site-footer__accent mb-8 font-sans text-sm font-semibold uppercase tracking-[0.16em]">
+              {t("date")}
+            </p>
 
-        <nav className="mb-10 flex flex-wrap gap-x-6 gap-y-3">
-          <Link href="/about" className="site-footer__link font-sans text-sm">
-            {t("about")}
-          </Link>
-          <Link href="/when" className="site-footer__link font-sans text-sm">
-            {t("when")}
-          </Link>
-          <Link href="/who" className="site-footer__link font-sans text-sm">
-            {t("who")}
-          </Link>
-          <Link href="/doggybagtours" className="site-footer__link font-sans text-sm">
-            {t("doggyBagTours")}
-          </Link>
-          <Link href="/community" className="site-footer__link font-sans text-sm">
-            {t("community")}
-          </Link>
-        </nav>
+            <nav className="mb-10 flex flex-wrap gap-x-6 gap-y-3">
+              <Link href="/about" className="site-footer__link font-sans text-sm">
+                {t("about")}
+              </Link>
+              <Link href="/when" className="site-footer__link font-sans text-sm">
+                {t("when")}
+              </Link>
+              <Link href="/who" className="site-footer__link font-sans text-sm">
+                {t("who")}
+              </Link>
+              <Link href="/doggybagtours" className="site-footer__link font-sans text-sm">
+                {t("doggyBagTours")}
+              </Link>
+              <Link href="/community" className="site-footer__link font-sans text-sm">
+                {t("community")}
+              </Link>
+            </nav>
+          </div>
+
+          <div className="flex items-end justify-end">
+            <img
+              src="/images/footer/dackel-red.png"
+              alt=""
+              aria-hidden="true"
+              className="h-48 w-auto opacity-80"
+            />
+          </div>
+        </div>
 
         <div className="site-footer__contact">
           <a
@@ -57,12 +70,6 @@ export default async function Footer() {
         <div className="border-t border-white/10 pt-8">
           <p className="font-sans text-sm text-white/50">{t("copyright")}</p>
         </div>
-        <img
-          src="/images/footer/dackel-red.png"
-          alt=""
-          aria-hidden="true"
-          className="absolute bottom-0 right-0 h-32 w-auto opacity-80 sm:h-48"
-        />
       </div>
     </footer>
   );
