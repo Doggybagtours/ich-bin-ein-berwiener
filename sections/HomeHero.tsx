@@ -71,9 +71,6 @@ export default function HomeHero({
         <p className="home-hero__tagline">{eventTagline}</p>
 
         <h1 className="home-hero__headline">
-          <span className="flyer-paw-accent" aria-hidden="true">
-            ★
-          </span>
           {subheadline}
         </h1>
 
