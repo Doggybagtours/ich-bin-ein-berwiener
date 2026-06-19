@@ -1,5 +1,23 @@
 export const siteUrl =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://ich-bin-ein-berwiener.vercel.app";
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://ichbineinberwiener.com";
+
+export const siteLocales = ["de", "en"] as const;
+
+export type SiteLocale = (typeof siteLocales)[number];
+
+export function normalizeSiteUrl(url: string = siteUrl): string {
+  return url.replace(/\/$/, "");
+}
+
+/** Locale-prefixed pathname, e.g. `/de/about`. Safe for sitemap generation without request context. */
+export function localizedPathname(locale: SiteLocale | string, pathname: string): string {
+  return pathname === "/" ? `/${locale}` : `/${locale}${pathname}`;
+}
+
+/** Absolute URL for a locale + pathname. */
+export function localizedAbsoluteUrl(locale: SiteLocale | string, pathname: string): string {
+  return `${normalizeSiteUrl()}${localizedPathname(locale, pathname)}`;
+}
 
 export const siteName = "Ich bin ein Berwiener";
 
