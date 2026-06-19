@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { Link } from "@/i18n/navigation";
 
 const PROFILE_IMAGE_WIDTH = 400;
 const PROFILE_IMAGE_HEIGHT = 500;
@@ -6,6 +7,7 @@ const PROFILE_IMAGE_HEIGHT = 500;
 type Props = {
   id: string;
   title: string;
+  titleHref?: string;
   badge: string;
   paragraphs: string[];
   imageSrc: string;
@@ -17,6 +19,7 @@ type Props = {
 export default function FeaturedProfileSection({
   id,
   title,
+  titleHref,
   badge,
   paragraphs,
   imageSrc,
@@ -47,7 +50,13 @@ export default function FeaturedProfileSection({
         <div className="profile-feature__content">
           <div className="profile-feature__header">
             <h2 id={id} className="profile-feature__title">
-              {title}
+              {titleHref ? (
+                <Link href={titleHref} className="text-inherit no-underline hover:text-accent">
+                  {title}
+                </Link>
+              ) : (
+                title
+              )}
             </h2>
             <span className="profile-badge profile-badge--inline">{badge}</span>
           </div>

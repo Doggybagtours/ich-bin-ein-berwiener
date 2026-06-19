@@ -33,10 +33,13 @@ export default async function Footer() {
               <Link href="/doggybagtours" className="site-footer__link font-sans text-sm">
                 {t("doggyBagTours")}
               </Link>
-              <Link href="/community" className="site-footer__link font-sans text-sm">
-                {t("community")}
-              </Link>
-            </nav>
+          <Link href="/community" className="site-footer__link font-sans text-sm">
+            {t("community")}
+          </Link>
+          <Link href="/shop" className="site-footer__link font-sans text-sm">
+            {t("shop")}
+          </Link>
+        </nav>
           </div>
 
           <div className="flex items-end justify-end">
