@@ -73,6 +73,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       card: "summary_large_image",
       images: [ogImage],
     },
+    verification: {
+      other: {
+        "msvalidate.01": "EB1861F86D8E9C92F80EC2105AD384BD",
+      },
+    },
     manifest: "/favicon/site.webmanifest",
     icons: {
       icon: [
