@@ -17,8 +17,8 @@ export default async function OpenGraphImage({ params }: Props) {
     locale === "de" ? "Dackel-Spaziergang Berlin" : "Dachshund Walk Berlin";
   const dateLine =
     locale === "de"
-      ? "Sonntag, 21. Juni 2026 · Pariser Platz"
-      : "Sunday, 21 June 2026 · Pariser Platz";
+      ? "Montag, 21. Juni 2027 · Pariser Platz"
+      : "Monday, 21 June 2027 · Pariser Platz";
 
   return new ImageResponse(
     (

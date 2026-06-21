@@ -1,8 +1,9 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { eventStartDate } from "@/lib/site";
 
-const EVENT_TIME = new Date("2026-06-21T12:30:00+02:00").getTime();
+const EVENT_TIME = new Date(eventStartDate).getTime();
 
 type Labels = {
   days: string;
