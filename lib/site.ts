@@ -28,11 +28,11 @@ export const ogImageHeight = 630;
 
 export const organizationLogoPath = "/images/doggy bag tours/logo.png";
 
-/** ISO 8601 — Monday 21 June 2027, 12:30 Berlin time */
-export const eventStartDate = "2027-06-21T12:30:00+02:00";
+/** ISO 8601 — Monday 21 June 2027, 20:00 Berlin time */
+export const eventStartDate = "2027-06-21T20:00:00+02:00";
 
 /** Approximate end of the walk for Event schema */
-export const eventEndDate = "2027-06-21T15:30:00+02:00";
+export const eventEndDate = "2027-06-21T23:00:00+02:00";
 
 export const organizer = {
   legalName: "Doggy Bag Tours GmbH",
